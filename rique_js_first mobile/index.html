@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lais_Mobile_First</title>
+    <link rel="shortcut icon" href="./assents/lua.icon.png.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assents/css/stylemobile.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Na sequencia de acima para baixo: colocado como favicon; 
+         link para o css do menu mobile; link para o css do google fonts -->
+
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Testando Mobile First</h1>
+    </header>
+    
+
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+        menu
+    </span>
+
+    <menu id="itens">
+        <ul>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Tablet</a></li>
+            <li><a href="#">Smart_tv</a></li>
+            <li><a href="#">Desktop</a></li>
+        </ul>
+    </menu>
+
+
+    <main>
+        <img src="./assents/icon-phone.png" alt="teste com celular" id="mobile">
+        <img src="./assents/icon-tablet.png" alt="teste com celular" id="tablet">
+        <img src="./assents/icon-print.png" alt="versão impressora" id="print">
+        <img src="./assents/icon-pc.png" alt="teste com desktop" id="pc">
+        <img src="./assents/icon-tv.png" alt="teste com smart tv" id="tv">
+
+
+
+        <article>
+
+            <h2>Testado Medias Queries</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae vel, illum saepe distinctio eum
+                voluptate alias quos iusto labore quod a, adipisci, ab debitis velit laudantium. Reprehenderit dolores
+                esse beatae?</p>
+
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nulla, repellat necessitatibus iste et
+                dolor soluta cum esse velit dolorum tempora placeat hic, ipsum eveniet incidunt eligendi molestias
+                quidem quibusdam!
+
+            </p>
+
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam itaque! Iste
+                natus excepturi molestiae
+                inventore facere nisi nesciunt ad, dolore aliquam architecto eveniet deleniti ab mollitia repellendus
+                nulla.
+                Quam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates magni consectetur incidunt
+                facere
+                cupiditate ex aperiam praesentium quam quibusdam. Quia molestiae maiores ex nulla provident, in sequi
+                eveniet
+                accusamus placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci laboriosam
+                asperiores
+                pariatur. Dicta nisi accusamus adipisci corporis ducimus fuga optio totam, ullam mollitia veniam et
+                libero minus
+                qui voluptatum.
+            </p>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Lais - 2024</p>
+
+    </footer>
+
+</body>
+
+<script src="./assents/js/scriptmq.js"></script>
+
+
+</html>
